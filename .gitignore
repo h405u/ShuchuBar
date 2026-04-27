@@ -1,0 +1,16 @@
+xcuserdata
+.DS_Store
+build/
+DerivedData/
+
+# Local app/runtime data fixtures
+focus_sessions.jsonl
+project_labels.json
+*.xcresult
+
+# Local AI/editor files
+.claude/*.local.*
+.claude/**/*.local.*
+.opencode/**
+.agents/
+.claude/

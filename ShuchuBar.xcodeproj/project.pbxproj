@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 70;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		587E947357720E2EA2CBB413 /* Defaults.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7DF64F554F1C157AD592EBE3 /* Defaults.swift */; };
+		84106AE8296E0D7020FA7430 /* ViewComponents.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57A330993DE806C801A86031 /* ViewComponents.swift */; };
+		8A21B78C27EE31A20009E5DB /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A21B78B27EE31A20009E5DB /* App.swift */; };
+		8A21B79027EE31A30009E5DB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A21B78F27EE31A30009E5DB /* Assets.xcassets */; };
+		8A7403A027FA19BB00E7F90B /* LaunchAtLogin in Frameworks */ = {isa = PBXBuildFile; productRef = 8A74039F27FA19BB00E7F90B /* LaunchAtLogin */; };
+		8A8CFE402821D8C300F9F303 /* SwiftState in Frameworks */ = {isa = PBXBuildFile; productRef = 8A8CFE3F2821D8C300F9F303 /* SwiftState */; };
+		8A9F700927EE396E0012A1EC /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F700827EE396E0012A1EC /* State.swift */; };
+		8A9F701927EE3DAF0012A1EC /* Timer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F701827EE3DAF0012A1EC /* Timer.swift */; };
+		8A9F701F27EE536D0012A1EC /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A9F701E27EE536D0012A1EC /* Player.swift */; };
+		8AA5B3EB281295DB00BE1A6C /* KeyboardShortcuts in Frameworks */ = {isa = PBXBuildFile; productRef = 8AA5B3EA281295DB00BE1A6C /* KeyboardShortcuts */; };
+		8AA5B3F22812A74600BE1A6C /* System.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AA5B3F12812A74600BE1A6C /* System.swift */; };
+		8AEE49AF2AA75A5E00243D2F /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8AEE49AE2AA75A5E00243D2F /* Log.swift */; };
+		959D825EE68CC1DB50581EA2 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCBF4F6785F7F6D7B70DAE7D /* SettingsView.swift */; };
+		AF25F3D9D9B35164957CE7A1 /* View.swift in Sources */ = {isa = PBXBuildFile; fileRef = CDC4770E64C7D24E1818FED7 /* View.swift */; };
+		BD13C3DE2EAE6F310022623C /* Notify.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD13C3DD2EAE6F310022623C /* Notify.swift */; };
+		BDE6ED602EC117EC00D20AEC /* AppIcon.icon in Resources */ = {isa = PBXBuildFile; fileRef = BDE6ED5F2EC117EC00D20AEC /* AppIcon.icon */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		57A330993DE806C801A86031 /* ViewComponents.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ViewComponents.swift; sourceTree = "<group>"; };
+		7DF64F554F1C157AD592EBE3 /* Defaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = Defaults.swift; sourceTree = "<group>"; };
+		8A21B78827EE31A20009E5DB /* ShuchuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ShuchuBar.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8A21B78B27EE31A20009E5DB /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		8A21B78F27EE31A30009E5DB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8A21B79427EE31A30009E5DB /* ShuchuBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ShuchuBar.entitlements; sourceTree = "<group>"; };
+		8A9F700827EE396E0012A1EC /* State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = State.swift; sourceTree = "<group>"; };
+		8A9F701827EE3DAF0012A1EC /* Timer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Timer.swift; sourceTree = "<group>"; };
+		8A9F701E27EE536D0012A1EC /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		8AA5B3F12812A74600BE1A6C /* System.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = System.swift; sourceTree = "<group>"; };
+		8AEE49AE2AA75A5E00243D2F /* Log.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
+		BD13C3DD2EAE6F310022623C /* Notify.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notify.swift; sourceTree = "<group>"; };
+		BDE6ED392EC109CE00D20AEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDE6ED5F2EC117EC00D20AEC /* AppIcon.icon */ = {isa = PBXFileReference; lastKnownFileType = folder.iconcomposer.icon; path = AppIcon.icon; sourceTree = "<group>"; };
+		CCBF4F6785F7F6D7B70DAE7D /* SettingsView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		CDC4770E64C7D24E1818FED7 /* View.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = View.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		BD2F1ED92ED18FBE0084E1E1 /* Localizations */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Localizations; sourceTree = "<group>"; };
+		BDBF71A32EAFD925004B0E08 /* Utils */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Utils; sourceTree = "<group>"; };
+		BDBF71A92EAFD940004B0E08 /* Timer */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Timer; sourceTree = "<group>"; };
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8A21B78527EE31A20009E5DB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A7403A027FA19BB00E7F90B /* LaunchAtLogin in Frameworks */,
+				8AA5B3EB281295DB00BE1A6C /* KeyboardShortcuts in Frameworks */,
+				8A8CFE402821D8C300F9F303 /* SwiftState in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8A21B77F27EE31A20009E5DB = {
+			isa = PBXGroup;
+			children = (
+				8A21B78A27EE31A20009E5DB /* ShuchuBar */,
+				8A21B78927EE31A20009E5DB /* Products */,
+				8A9F700D27EE3AED0012A1EC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		8A21B78927EE31A20009E5DB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8A21B78827EE31A20009E5DB /* ShuchuBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8A21B78A27EE31A20009E5DB /* ShuchuBar */ = {
+			isa = PBXGroup;
+			children = (
+				BDE6ED5F2EC117EC00D20AEC /* AppIcon.icon */,
+				BDE6ED392EC109CE00D20AEC /* Info.plist */,
+				8A21B79427EE31A30009E5DB /* ShuchuBar.entitlements */,
+				8A21B78B27EE31A20009E5DB /* App.swift */,
+				8AEE49AE2AA75A5E00243D2F /* Log.swift */,
+				BD13C3DD2EAE6F310022623C /* Notify.swift */,
+				8A9F701E27EE536D0012A1EC /* Player.swift */,
+				8A9F700827EE396E0012A1EC /* State.swift */,
+				8A9F701827EE3DAF0012A1EC /* Timer.swift */,
+				8A21B78F27EE31A30009E5DB /* Assets.xcassets */,
+				BDA289B52EA9732A0089FF69 /* Notifications */,
+				BDBF71A92EAFD940004B0E08 /* Timer */,
+				BD2F1ED92ED18FBE0084E1E1 /* Localizations */,
+				BDBF71A32EAFD925004B0E08 /* Utils */,
+				F5B12F090B3E600D5806B7D4 /* Views */,
+				CDC4770E64C7D24E1818FED7 /* View.swift */,
+				7DF64F554F1C157AD592EBE3 /* Defaults.swift */,
+			);
+			path = ShuchuBar;
+			sourceTree = "<group>";
+		};
+		8A9F700D27EE3AED0012A1EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BDA289B52EA9732A0089FF69 /* Notifications */ = {
+			isa = PBXGroup;
+			children = (
+				8AA5B3F12812A74600BE1A6C /* System.swift */,
+			);
+			path = Notifications;
+			sourceTree = "<group>";
+		};
+		F5B12F090B3E600D5806B7D4 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				57A330993DE806C801A86031 /* ViewComponents.swift */,
+				CCBF4F6785F7F6D7B70DAE7D /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8A21B78727EE31A20009E5DB /* ShuchuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8A21B79727EE31A30009E5DB /* Build configuration list for PBXNativeTarget "ShuchuBar" */;
+			buildPhases = (
+				8A21B78427EE31A20009E5DB /* Sources */,
+				BD13C3E12EAFCBCF0022623C /* ShellScript */,
+				8A21B78527EE31A20009E5DB /* Frameworks */,
+				8A21B78627EE31A20009E5DB /* Resources */,
+				8A7403A127FA1A4E00E7F90B /* Copy “Launch at Login Helper” */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BD2F1ED92ED18FBE0084E1E1 /* Localizations */,
+				BDBF71A32EAFD925004B0E08 /* Utils */,
+				BDBF71A92EAFD940004B0E08 /* Timer */,
+			);
+			name = ShuchuBar;
+			packageProductDependencies = (
+				8A74039F27FA19BB00E7F90B /* LaunchAtLogin */,
+				8AA5B3EA281295DB00BE1A6C /* KeyboardShortcuts */,
+				8A8CFE3F2821D8C300F9F303 /* SwiftState */,
+			);
+			productName = ShuchuBar;
+			productReference = 8A21B78827EE31A20009E5DB /* ShuchuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8A21B78027EE31A20009E5DB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1330;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					8A21B78727EE31A20009E5DB = {
+						CreatedOnToolsVersion = 13.3;
+					};
+				};
+			};
+			buildConfigurationList = 8A21B78327EE31A20009E5DB /* Build configuration list for PBXProject "ShuchuBar" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 8A21B77F27EE31A20009E5DB;
+			packageReferences = (
+				8A74039E27FA19BB00E7F90B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */,
+				8AA5B3E9281295DB00BE1A6C /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */,
+				8A8CFE3E2821D8C300F9F303 /* XCRemoteSwiftPackageReference "SwiftState" */,
+			);
+			productRefGroup = 8A21B78927EE31A20009E5DB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8A21B78727EE31A20009E5DB /* ShuchuBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8A21B78627EE31A20009E5DB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A21B79027EE31A30009E5DB /* Assets.xcassets in Resources */,
+				BDE6ED602EC117EC00D20AEC /* AppIcon.icon in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8A7403A127FA1A4E00E7F90B /* Copy “Launch at Login Helper” */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Copy “Launch at Login Helper”";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${BUILT_PRODUCTS_DIR}/LaunchAtLogin_LaunchAtLogin.bundle/Contents/Resources/copy-helper-swiftpm.sh\"\n";
+		};
+		BD13C3E12EAFCBCF0022623C /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "export PATH=/opt/homebrew/bin/:$PATH\nif command -v swiftlint >/dev/null 2>&1\nthen\n    swiftlint\nelse\n    echo \"note: swiftlint command not found - See https://github.com/realm/SwiftLint#installation for installation instructions.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8A21B78427EE31A20009E5DB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A9F701F27EE536D0012A1EC /* Player.swift in Sources */,
+				8AEE49AF2AA75A5E00243D2F /* Log.swift in Sources */,
+				BD13C3DE2EAE6F310022623C /* Notify.swift in Sources */,
+				8A9F701927EE3DAF0012A1EC /* Timer.swift in Sources */,
+				8A21B78C27EE31A20009E5DB /* App.swift in Sources */,
+				8AA5B3F22812A74600BE1A6C /* System.swift in Sources */,
+				8A9F700927EE396E0012A1EC /* State.swift in Sources */,
+				AF25F3D9D9B35164957CE7A1 /* View.swift in Sources */,
+				84106AE8296E0D7020FA7430 /* ViewComponents.swift in Sources */,
+				959D825EE68CC1DB50581EA2 /* SettingsView.swift in Sources */,
+				587E947357720E2EA2CBB413 /* Defaults.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8A21B79527EE31A30009E5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8A21B79627EE31A30009E5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		8A21B79827EE31A30009E5DB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShuchuBar/ShuchuBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShuchuBar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShuchuBar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Hao Su.\n\nhttps://github.com/h405u/ShuchuBar\n\nBased on TomoBar by ArtemYurov";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.h405u.shuchubar;
+				PRODUCT_NAME = ShuchuBar;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Debug;
+		};
+		8A21B79927EE31A30009E5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = ShuchuBar/ShuchuBar.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEAD_CODE_STRIPPING = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_APP_SANDBOX = YES;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_INCOMING_NETWORK_CONNECTIONS = NO;
+				ENABLE_OUTGOING_NETWORK_CONNECTIONS = NO;
+				ENABLE_RESOURCE_ACCESS_AUDIO_INPUT = NO;
+				ENABLE_RESOURCE_ACCESS_BLUETOOTH = NO;
+				ENABLE_RESOURCE_ACCESS_CALENDARS = NO;
+				ENABLE_RESOURCE_ACCESS_CAMERA = NO;
+				ENABLE_RESOURCE_ACCESS_CONTACTS = NO;
+				ENABLE_RESOURCE_ACCESS_LOCATION = NO;
+				ENABLE_RESOURCE_ACCESS_PRINTING = NO;
+				ENABLE_RESOURCE_ACCESS_USB = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ShuchuBar/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = ShuchuBar;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_LSUIElement = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "Copyright © 2026 Hao Su.\n\nhttps://github.com/h405u/ShuchuBar\n\nBased on TomoBar by ArtemYurov";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.h405u.shuchubar;
+				PRODUCT_NAME = ShuchuBar;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				SYSTEM_FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SYSTEM_LIBRARY_DIR)/PrivateFrameworks",
+				);
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8A21B78327EE31A20009E5DB /* Build configuration list for PBXProject "ShuchuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A21B79527EE31A30009E5DB /* Debug */,
+				8A21B79627EE31A30009E5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8A21B79727EE31A30009E5DB /* Build configuration list for PBXNativeTarget "ShuchuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A21B79827EE31A30009E5DB /* Debug */,
+				8A21B79927EE31A30009E5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8A74039E27FA19BB00E7F90B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/LaunchAtLogin";
+			requirement = {
+				kind = exactVersion;
+				version = 5.0.0;
+			};
+		};
+		8A8CFE3E2821D8C300F9F303 /* XCRemoteSwiftPackageReference "SwiftState" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactKit/SwiftState";
+			requirement = {
+				branch = swift/5.0;
+				kind = branch;
+			};
+		};
+		8AA5B3E9281295DB00BE1A6C /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sindresorhus/KeyboardShortcuts";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.4.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8A74039F27FA19BB00E7F90B /* LaunchAtLogin */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A74039E27FA19BB00E7F90B /* XCRemoteSwiftPackageReference "LaunchAtLogin" */;
+			productName = LaunchAtLogin;
+		};
+		8A8CFE3F2821D8C300F9F303 /* SwiftState */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8A8CFE3E2821D8C300F9F303 /* XCRemoteSwiftPackageReference "SwiftState" */;
+			productName = SwiftState;
+		};
+		8AA5B3EA281295DB00BE1A6C /* KeyboardShortcuts */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8AA5B3E9281295DB00BE1A6C /* XCRemoteSwiftPackageReference "KeyboardShortcuts" */;
+			productName = KeyboardShortcuts;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8A21B78027EE31A20009E5DB /* Project object */;
+}

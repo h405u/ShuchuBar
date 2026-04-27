@@ -1,0 +1,116 @@
+"View.width" = "285";
+
+"View.start.label" = "Start";
+"View.stop.label" = "Stop";
+"View.addMinute.help" = "Add a minute";
+"View.addFiveMinutes.help" = "Add five minutes";
+"View.pause.help" = "Pause";
+"View.resume.help" = "Resume";
+"View.skip.help" = "Skip";
+"View.intervals.label" = "Intervals";
+"View.settings.label" = "Settings";
+"View.controls.label" = "Controls";
+"View.sounds.label" = "Sounds";
+"View.checkForUpdates.label" = "Check for Updates";
+"View.about.label" = "About";
+"View.quit.label" = "Quit";
+
+"IntervalsView.min" = "min";
+"IntervalsView.workIntervalLength.label" = "Work";
+"IntervalsView.shortRestIntervalLength.label" = "Short break";
+"IntervalsView.longRestIntervalLength.label" = "Long break";
+"IntervalsView.longRestIntervalLength.help" = "Duration of the longer break, taken after finishing a set of work intervals";
+"IntervalsView.workIntervalsInSet.label" = "Work intervals per set";
+"IntervalsView.workIntervalsInSet.help" = "Number of work intervals before taking a longer break";
+"IntervalsView.startWith.label" = "Start with";
+"IntervalsView.stopAfter.label" = "Stop after";
+"IntervalsView.dnd.label" = "DND";
+"IntervalsView.dnd.off" = "Off";
+"IntervalsView.dnd.onWork" = "On work";
+"IntervalsView.dnd.help" = "Runs a shortcut to enable/disable Do Not Disturb on work/rest transitions";
+"IntervalsView.presets.label" = "Presets";
+"IntervalsView.off.label" = "Off";
+"IntervalsView.work.label" = "Work";
+"IntervalsView.break.label" = "Break";
+"IntervalsView.set.label" = "Set";
+
+"SettingsView.controls.rightclick.label" = "Icon right click";
+"SettingsView.controls.rightclick.long.label" = "Long right";
+"SettingsView.controls.rightclick.double.label" = "Double right";
+
+"SettingsView.controls.shortcuts.startStop.label" = "Start/stop";
+"SettingsView.controls.shortcuts.pauseResume.label" = "Pause/resume";
+"SettingsView.controls.shortcuts.addMinute.label" = "Add a minute";
+"SettingsView.controls.shortcuts.addFiveMinutes.label" = "Add five minutes";
+"SettingsView.controls.shortcuts.skipInterval.label" = "Skip interval";
+
+"SettingsView.timer.show.label" = "Show timer";
+"SettingsView.timer.show.active.label" = "Active";
+"SettingsView.timer.show.always.label" = "Always";
+"SettingsView.timer.font.label" = "Font";
+"SettingsView.timer.font.system.label" = "System";
+"SettingsView.timer.font.ptMono.label" = "PT Mono";
+"SettingsView.timer.font.sfMono.label" = "SF Mono";
+"SettingsView.timer.grayBackground.label" = "Gray background";
+"SettingsView.timer.backgroundOpacity.label" = "Background opacity";
+
+"SettingsView.alert.mode.label" = "Alert mode";
+"SettingsView.alert.mode.notify.label" = "Notify";
+"SettingsView.alert.mode.fullScreen.label" = "Full";
+"SettingsView.alert.notifyStyle.label" = "Notification style";
+"SettingsView.alert.notifyStyle.system.label" = "System";
+"SettingsView.alert.notifyStyle.small.label" = "Small";
+"SettingsView.alert.notifyStyle.big.label" = "Big";
+"SettingsView.alert.maskMode.blockActions.label" = "Block screen on rest";
+"SettingsView.alert.autoResumeWork.label" = "Resume work automatically";
+
+"SettingsView.app.language.label" = "Language";
+"SettingsView.app.language.system.label" = "System";
+"SettingsView.language.restart.title" = "Restart Required";
+"SettingsView.language.restart.message" = "ShuchuBar needs to restart to apply the new language setting.";
+"SettingsView.language.restart.restart" = "Restart Now";
+"SettingsView.language.restart.later" = "Later";
+
+"SettingsView.app.startTimerOnLaunch.label" = "Start timer on launch";
+"SettingsView.app.launchAtLogin.label" = "Launch at login";
+
+"SoundsView.isWindupEnabled.label" = "Windup";
+"SoundsView.isDingEnabled.label" = "Ding";
+"SoundsView.isTickingEnabled.label" = "Ticking";
+"SoundsView.openSoundFolder.label" = "Open sound folder";
+
+"SystemNotification.restStart.title" = "Time's up";
+"SystemNotification.restStart.shortBreak.body" = "It's time for a short break!";
+"SystemNotification.restStart.longBreak.body" = "It's time for a long break!";
+"SystemNotification.restStart.skipBreak.action" = "Skip break";
+"SystemNotification.restFinish.title" = "Break is over";
+"SystemNotification.restFinish.body" = "Keep up the good work!";
+"SystemNotification.restFinish.skipWork.action" = "Skip work";
+"SystemNotification.sessionComplete.title" = "Timer completed";
+"SystemNotification.sessionComplete.body" = "Session finished";
+
+"CustomNotification.workComplete.title" = "Work session complete";
+"CustomNotification.workComplete.shortBreak.subtitle" = "Time for a short break";
+"CustomNotification.workComplete.longBreak.subtitle" = "Time for a long break";
+"CustomNotification.workComplete.takeBreak.action" = "Take Break";
+"CustomNotification.workComplete.skipBreak.action" = "Skip Break";
+"CustomNotification.shortBreakComplete.title" = "Short break is over";
+"CustomNotification.longBreakComplete.title" = "Long break is over";
+"CustomNotification.breakComplete.subtitle" = "Ready to work?";
+"CustomNotification.breakComplete.startWork.action" = "Start Work";
+"CustomNotification.breakComplete.skipWork.action" = "Skip Work";
+"CustomNotification.sessionComplete.title" = "Timer completed";
+"CustomNotification.sessionComplete.subtitle" = "Session finished";
+"CustomNotification.control.addMinute" = "+1 min";
+"CustomNotification.control.addTwoMinutes" = "+2 min";
+"CustomNotification.control.addFiveMinutes" = "+5 min";
+"CustomNotification.control.restart.small" = "Restart";
+"CustomNotification.control.restart.big" = "Restart Session";
+"CustomNotification.control.close" = "Close";
+
+"MaskNotification.restStarted.shortBreak.title" = "It's time for a short break!";
+"MaskNotification.restStarted.longBreak.title" = "It's time for a long break!";
+"MaskNotification.restStarted.instruction" = "Double-click to skip break, click once to hide this mask";
+"MaskNotification.restFinished.shortBreak.title" = "Short break is over";
+"MaskNotification.restFinished.longBreak.title" = "Long break is over";
+"MaskNotification.restFinished.instruction" = "Click to start work, double-click to skip work";
